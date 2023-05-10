@@ -1,61 +1,53 @@
-# Statistical population modelling for census support
+# Modelización estadística de la población para apoyar los censos
 
 [![DOI](https://zenodo.org/badge/383087930.svg)](https://zenodo.org/badge/latestdoi/383087930)
 
-This github repo contains the raw teaching materials for the [**Statistical Population Modelling for Census Support workshop,**](https://wpgp.github.io/bottom-up-tutorial/) funded by the [United Nations Population Fund](<https://www.unfpa.org/>). It has been developed by the [WorldPop Research Group](<https://www.worldpop.org/>), University of Southampton.
+Este repositorio de github contiene el material didáctico en bruto para el [**Modelización estadística de la población para apoyar los censos**](https://wpgp.github.io/bottom-up-tutorial-es/) financiado por el [Fondo de Población de las Naciones Unidas](<https://www.unfpa.org/>). Ha sido desarrollado por el [WorldPop Researc)h Group](<https://www.worldpop.org/>), Universidad de Southampton y el [Leverhulme Center for Demographic Sciences](https://www.demography.ox.ac.uk/).
 
-The repo consists in a series of tutorials in **Bayesian statistics for population modelling** with hands-on experience. It includes example code and other resources designed to expedite the learning curve.
+Este sitio web ofrece una serie de tutoriales sobre **estadística bayesiana para la modelización de poblaciones** y experiencias prácticas para empezar a desarrollar las habilidades necesarias. Incluye un código de ejemplo y otros recursos diseñados para agilizar al máximo la curva de aprendizaje.
 
-The key concepts that are covered in the tutorial series include:
-1.  Introduction to software for Bayesian statistical modelling:  R and Stan,
-2.  Simple linear regression in a Bayesian context,
-3.  Random effects to account for settlement type (e.g. urban/rural) and other types of stratification in survey data,
-4.  Quantifying and mapping uncertainties in population estimates and
-5.  Diagnostics to evaluate model performance (e.g. cross-validation).
+Los conceptos clave que se tratan en la serie de tutoriales incluyen:
+1. introducción a los programas informáticos de modelización estadística bayesiana: R y Stan,
+2. regresión lineal simple en un contexto bayesiano,
+3. efectos aleatorios para tener en cuenta el tipo de asentamiento (por ejemplo, urbano/rural) y otros tipos de estratificación en los datos de la encuesta,
+4. cuantificación y mapeo de las incertidumbres en las estimaciones de población y
+5. diagnósticos para evaluar el rendimiento del modelo (por ejemplo, validación cruzada).
 
-It has been first taught to the Brazilian Stats Office, [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/en/home-eng.html), in October 2021.
+El material se ha utilizado durante un taller a distancia con el Instituto Brasileño de Geografía y Estadística (IBGE) en octubre de 2021.
 
-# Tutorials outline
+# Esquema de los tutoriales
 
--   [Introduction](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/)
--   [Tutorial 1](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/tutorial1/): How to think about population as a Bayesian?
--   [Tutorial 2](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/tutorial2/): How to model large-scale spatial variations?
--   [Tutorial 3](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/tutorial3/): How to model small-scale spatial variations?
--   [Tutorial 4](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/tutorial4/): Advanced model diagnostics and prediction
--   [Conclusion](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/)
--   [Workflow refresher](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials/workflow/): Building a population model from start to end + a tale about hierarchical model parametrisation
+-   [Introduction](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/)
+-   [Tutorial 1](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/tutorial1/): ¿Cómo pensar como un bayesiano y construir un primer modelo de población? 
+-   [Tutorial 2](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/tutorial2/): ¿Cómo modelizar las variaciones espaciales a gran escala?
+-   [Tutorial 3](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/tutorial3/): ¿Cómo modelizar las variaciones espaciales a pequeña escala?
+-   [Tutorial 4](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/tutorial4/): Diagnóstico y predicción avanzados de modelos
+-   [Conclusión](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/)
+-   [Actualización del flujo de trabajo](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials/workflow/): Construcción de un modelo de población de principio a fin + una historia sobre la parametrización de modelos jerárquicos
 
-# Folder content
+# Material
 
-The relevant materials are in the [`tutorials`](https://github.com/wpgp/bottom-up-tutorial/tree/main/tutorials) folder.
+Los materiales pertinentes se encuentran en la carpeta [`tutorials`](https://github.com/wpgp/bottom-up-tutorial-es/tree/main/tutorials).
 
-Each tutorial has its dedicated folder that contains:
-- Tutorial material
-  -  The `R` code
-  -  The `stan` code
-- Background files
-  -  The `R markdown` code that has been used to produce the `html` page
-  -  The `references.bib` with references used for the tutorial
-  -  The `html` code for the website page  
+Cada tutorial tiene su carpeta dedicada que contiene
+- Material del tutorial
+  - El código `R`
+  - El código `stan`
+- Archivos de fondo
+  - El código `html` para la página web  
 
-The `data` folder contains outputs of the tutorial.
+La carpeta `data` contiene los resultados del tutorial.
 
-# Acknowledgements
+# Agradecimientos
 
-The tutorials were written by Edith Darin from WorldPop, University of
-Southampton and Douglas Leasure from Leverhulme Centre for Demographic
-Science, University of Oxford, with supervision from Andrew Tatem, WorldPop, University of
-Southampton.
-
-Funding for the work was provided by the United Nations Population Fund.
+ Este tutorial ha sido redactado por Edith Darin, de WorldPop, Universidad de Southampton, y Douglas Leasure, del Leverhulme Centre for Demographic Science, Universidad de Oxford, con la supervisión de Andrew Tatem, de WorldPop, Universidad de Southampton. Este trabajo ha sido financiado por el Fondo de Población de las Naciones Unidas (UNFPA, por sus siglas en inglés). 
 
 # License
 
-You are free to redistribute this document under the terms of a Creative Commons Attribution-NoDerivatives 4.0
-International ([CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)) license.
+El presente documento puede redistribuirse libremente bajo los términos de una licencia Creative Commons Atribución-SinDerivadas 4.0 Internacional ([CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)).
 
 
-# Suggested citation
+# Cita sugerida
 
 Darin E, Leasure DR, Tatem AJ. 2021. Statistical population modelling for census support. United Nations Population Fund (UNFPA) and WorldPop, University of Southampton. https://wpgp.github.io/bottom-up-tutorial/, doi:10.5281/zenodo.5572490
 
@@ -64,4 +56,4 @@ Darin E, Leasure DR, Tatem AJ. 2021. Statistical population modelling for census
 <br>
 
 
-![alt](assets/pic/320px-UNFPA_logo.svg.png) ![alt](assets/pic/wp_logo_gray_low.png)
+![alt](assets/pic/320px-UNFPA_logo.svg.png) ![alt](assets/pic/wp_logo_gray_low.png) ![alt](assets/pic/Ox_LCDS_logo_bw.png)
