@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/383087930.svg)](https://zenodo.org/badge/latestdoi/383087930)
 
-This github repo contains the raw teaching materials for the [**Statistical Population Modelling for Census Support workshop,**](https://wpgp.github.io/bottom-up-tutorial/) funded by the [United Nations Population Fund](<https://www.unfpa.org/>). It has been developed by the [WorldPop Research Group](<https://www.worldpop.org/>), University of Southampton.
+Este repositorio de github contiene el material didáctico en bruto para el [**Modelización estadística de la población para apoyar los censos**](https://wpgp.github.io/bottom-up-tutorial-es/) financiado por el [Fondo de Población de las Naciones Unidas](<https://www.unfpa.org/>). Ha sido desarrollado por el [WorldPop Researc)h Group](<https://www.worldpop.org/>), Universidad de Southampton y el [Leverhulme Center for Demographic Sciences](https://www.demography.ox.ac.uk/).
 
 Este sitio web ofrece una serie de tutoriales sobre **estadística bayesiana para la modelización de poblaciones** y experiencias prácticas para empezar a desarrollar las habilidades necesarias. Incluye un código de ejemplo y otros recursos diseñados para agilizar al máximo la curva de aprendizaje.
 
